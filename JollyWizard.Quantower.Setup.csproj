@@ -5,6 +5,7 @@
     <Company>Jolly Wizard</Company>
     <Description>A collection of helpers for interfacing with the Quantower platform.</Description>
     <Copyright>Public Domain</Copyright>
+    <Version>1.0.0</Version>
   </PropertyGroup>
   
   <PropertyGroup Label="Build Conditions">
