@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Package Info">
+    <Authors>James Arlow</Authors>
+    <Company>Jolly Wizard</Company>
+    <Description>A collection of helpers for interfacing with the Quantower platform.</Description>
+    <Copyright>Public Domain</Copyright>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Build Conditions">
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup Label="Dependencies">
+    <Reference Condition="('$(TargetFramework.contains(`net4`))' and '$(LangVersion)'=='latest')" Include="System.Net.Http" Label="Required by newer lang standards with ImplicitUsings."/>
+  </ItemGroup>
+    
+</Project>
