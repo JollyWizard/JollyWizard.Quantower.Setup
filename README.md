@@ -3,7 +3,7 @@ A library to help locate and interface with the Quantower Platform.
 
 ## Overview
 
-This project is a helper library used to connect project with the Quantower platform.
+This project is a helper library used to connect projects with the Quantower platform.
 
 Quantower installs itself to a relative location, so it must be located before its dlls can be imported.
 
